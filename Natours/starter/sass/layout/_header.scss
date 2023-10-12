@@ -21,6 +21,8 @@
     position: absolute;
     top: 40%;
     left: 50%;
+    // top 40%, left 50% 가 놓여지는 기준은 text-box의 왼쪽 상단 모서리이다. 따라서 가운데 정렬하기 위해서
+    // 자기 자신의 크기의 50% 만큰 옮긴다.
     transform: translate(-50%, -50%);
     text-align: center;
   }
